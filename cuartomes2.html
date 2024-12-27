@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡4 Meses Juntos!</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Encabezado */
+        header {
+            background-color: #1df8b5;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Sección principal */
+        section {
+            padding: 30px;
+            margin: 30px auto;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        /* Estilos para los títulos */
+        h2 {
+            font-size: 2.5em;
+            color: #1df8b5;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos de la línea de tiempo */
+        .timeline {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .timeline-item {
+            margin-bottom: 30px;
+        }
+
+        .timeline-item h3 {
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .timeline-item img {
+            width: 100%;
+            max-width: 400px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Galería de imágenes */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Sección del mapa de viajes */
+        .map {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        .map img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .map ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .map ul li {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background-color: #1df8b5;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¡4 Meses Juntos!</h1>
+</header>
+
+<section>
+    <h2>Bienvenida a nuestra página especial</h2>
+    <p>En este espacio encontrarás algunos de los momentos más especiales de nuestra historia. ¡Espero que lo disfrutes tanto como yo disfruto de tu amor!</p>
+</section>
+
+<section class="timeline">
+    <h2>Línea de Tiempo de Momentos Especiales</h2>
+    <div class="timeline-item">
+        <h3>Una Cita</h3>
+        <p>Recuerdo como si fuera ayer... ese día tan especial en el que nos conectamos y pudimos fluir como uno.</p>
+        <img src="imagen/cita.jpeg" alt="Una Cita">
+    </div>
+    <div class="timeline-item">
+        <h3>Un Momento</h3>
+        <p>Ese momento mágico donde pudimos compartir una nueva experiencia juntos... no puedo dejar de sonreír cada vez que lo recuerdo.</p>
+        <img src="imagen/momento.jpeg" alt="Momento">
+    </div>
+    <div class="timeline-item">
+        <h3>Just Us</h3>
+        <p>Cada mañana despertar con vos, la mejor parte de mi día es cuando te veo por primera vez, tan tierna y perfecta alegrando mis rutinas.</p>
+        <img src="imagen/us.jpeg" alt="Just Us">
+    </div>
+</section>
+
+<section class="gallery">
+    <h2>Galería de Recuerdos de este 2024</h2>
+    <div>
+        <img src="imagen/recuerdo1.jpeg" alt="Recuerdo 1">
+        <img src="imagen/recuerdo2.jpeg" alt="Recuerdo 2">
+        <img src="imagen/recuerdo3.jpeg" alt="Recuerdo 3">
+        <img src="imagen/recuerdo4.jpeg" alt="Recuerdo 4">
+        <img src="imagen/recuerdo5.jpeg" alt="Recuerdo 5">
+        <img src="imagen/recuerdo6.jpeg" alt="Recuerdo 6">
+    </div>
+</section>
+
+<section class="map">
+    <h2>Mapa de Viaje Imaginario</h2>
+    <p>Estos son los lugares que quiero visitar contigo en el futuro:</p>
+    <ul>
+        <li><strong>Canadá:</strong> Un paseo por sus calles, admirar los maples y disfrutar un brunch juntos con su sirope.</li>
+        <img src="imagen/canada.jpg" alt="canada">
+        <li><strong>Londres:</strong> Navegar por sus canales mientras vemos el Big Ben o visitar el museo británico.</li>
+        <img src="imagen/londres.jpeg" alt="londres">
+        <li><strong>EE.UU.:</strong> Explorar la capital mundial, tranquilos, mientras compartimos recuerdos de todo tipo.</li>
+        <img src="imagen/eeuu.jpg" alt="eeuu">
+    </ul>
+</section>
+
+<section>
+    <h2>Razones por las que me enamoré de ti</h2>
+    <ul>
+        <li>Tu sonrisa y mirada ilumina mis días desde el comienzo.</li>
+        <li>La forma en que me entiendes, más allá de las palabras.</li>
+        <li>Tu manera de hacerme sentir especial cada día, en cada detalle.</li>
+        <li>Tu bondad y generosidad, me inspiran todos los días.</li>
+        <li>Tu paciencia y comprensión, especialmente cuando las cosas no son fáciles.</li>
+        <li>Cómo juntos hemos construido un hogar, no importa el lugar, porque es donde estamos tú y yo (y Chan).</li>
+        <li>Y lo más importante, es esa personalidad que hace que me enamore cada día más de vos.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Un Mensaje de Corazón</h2>
+    <p>Soy de los que creen que las estrellas no solo están en el cielo, sino también en los momentos que compartimos. Mi corazón siempre busca amor y seguridad, y tú, con tu luz única, me has enseñado que lo verdadero está en los detalles más simples, esos que hacen que mi mundo gire alrededor de ti.
+    Tu belleza no es solo exterior, sino esa que viene de tu alma, esa que me toca el corazón sin que te des cuenta. En tu ser, encuentro todo lo que mi corazón necesitaba y más.  
+    Te amo con cada parte de mi ser, con cada latido de mi corazón.  
+    Siempre tuyo, Emilio.</p>
+</section>
+
+<footer>
+    <p>Gracias por hacerme tan feliz. ¡Te amo! 💖</p>
+</footer>
+
+</body>
+</html>
