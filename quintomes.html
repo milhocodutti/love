@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Meses de Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffcccc, #ffe6e6);
+            color: #333;
+        }
+        header {
+            background: #ff99cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 20px;
+        }
+        .timeline {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .photo-gallery img {
+            width: 100%;
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .center {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ff99cc;
+            color: white;
+        }
+        .message {
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff0f5;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: center;
+        }
+        button {
+            background: #ff6699;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #ff3366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>5 Meses de Amor ❤️</h1>
+        <p>Nuestra historia, nuestra música, nuestro amor.</p>
+    </header>
+
+    <section>
+        <div class="timeline">
+            <h2>Línea de Tiempo</h2>
+            <p><strong>Hace 5 meses:</strong> Nuestra primera cita. 💖</p>
+            <p><strong>Hace 3 meses:</strong> Nuestra primera escapada. 🌟</p>
+            <p><strong>Hoy:</strong> Siguiendo juntos, amándonos más cada día. 🥰</p>
+        </div>
+
+        <div class="photo-gallery center">
+            <h2>Galería de Recuerdos</h2>
+            <img src="photo1.jpg" alt="Recuerdo 1">
+            <img src="photo2.jpg" alt="Recuerdo 2">
+            <img src="photo3.jpg" alt="Recuerdo 3">
+        </div>
+
+        <div class="message">
+            <h2>Un Mensaje Para Ti</h2>
+            <p>Mi amor, estos meses contigo han sido los mejores de mi vida. ❤️</p>
+            <p>Gracias por ser tú, por compartir tus risas, tus sueños y tu corazón conmigo.</p>
+        </div>
+
+        <div class="center">
+            <button onclick="revealSurprise()">Descubre la Sorpresa 🎁</button>
+            <div id="surprise" style="display: none; margin-top: 20px;">
+                <h3>¡Te Amo! 💕</h3>
+                <p>Eres mi todo, y estoy emocionado por todo lo que viene.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Con todo mi amor, para ti. ❤️</p>
+    </footer>
+
+    <script>
+        function revealSurprise() {
+            const surprise = document.getElementById('surprise');
+            surprise.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
