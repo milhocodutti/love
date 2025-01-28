@@ -23,11 +23,12 @@
             font-size: 2.5em;
         }
         section {
-            padding: 20px;
+            padding: 0px;
         }
         .timeline {
-            margin: 20px 0;
-            padding: 20px;
+
+            margin: 2px 2px;
+            padding: 5px;
             background: white;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -153,6 +154,28 @@
       }
     }
   </style>
+  <style>
+	.fondo {
+  position: relative;
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background-image: url('imagen/enero25/dragon0.jpg'); /* Cambia por la ruta de tu imagen */
+  background-size: ; /* Hace que la imagen cubra todo el div */
+  background-position: center center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.fondo0::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad aquí (0.5 es 50%) */
+  pointer-events: none; /* Asegura que no interfiera con otros elementos dentro del div */
+}
+  </style>
 </head>
 <body>
     <header>
@@ -160,7 +183,7 @@
         <p>Nuestra historia, nuestra música, nuestro amor.</p>
     </header>
 
-    <section>
+    <section class="fondo">
         <div class="timeline">
             <h2>Nuestro 5° Mes</h2>
             <p><strong>Hace 5 meses:</strong> Nuestra primera cita. 💖</p>
